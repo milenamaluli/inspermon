@@ -14,12 +14,8 @@ while True :
     if opcao == 1 :
         inimigo = random.choice(lista_inimigos)
         print(inimigo)
-        #inspermon
-def batalha():
-	while vidaminha>0 and vidainimigo>0:
-		vidainimigo=vidainimigo-(poderminha-defesainimigo)
-		if vidainimigo<=0:
-			return("Voce ganhou!")
-		vidaminha=vidaminha-(poderinimigo-defesaminha)
-		if vidaminha<=0:
-			return("Voce perdeu...")
+        a=batalha()
+	if a==("Voce perdeu..."):
+		break
+	if a==("Voce ganhou"):
+		continue
