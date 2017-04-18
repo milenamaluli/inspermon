@@ -22,4 +22,5 @@ def batalha():
 		vidaminha=vidaminha-(poderinimigo-defesaminha)
 		if vidaminha<=0:
 			return("Voce perdeu...")
+		
 			
