@@ -90,7 +90,7 @@ def batalha(vidaminha, vidainimigo, poderminha,poderinimigo, defesainimigo, defe
 while True :
 	
 	print("\n opcoes \n 1: passear  \n 2: dormir \n 3:ver insperdex \n " )
-	opcao  = int(input("escolha uma opcao: "))    
+	opcao  = int(input("escolha uma opcao: "))
 	if opcao == 2:
 		break
 	if opcao == 1 :
